@@ -1,0 +1,43 @@
+.card{
+    width: 450px;
+    min-height: 40px;
+    
+    background-color: aliceblue;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0em 0 1em 0;
+    border-radius: 3px;
+
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4em;
+
+}
+.question{
+    color: black;
+    font-weight: 600;
+
+    position: relative;
+    top: 1em;
+    left: -3em;
+}
+.response{
+    position: relative;
+    left: .5em;
+    width: 360px;
+    padding: 1em;
+}
+.btn{
+    border-radius: 50%;
+    border: none;
+    padding: .3em;
+    font-weight: 600;
+    color: red;
+    cursor: pointer;
+
+    position: absolute;
+    top: .75em;
+    right: 6em;
+}
